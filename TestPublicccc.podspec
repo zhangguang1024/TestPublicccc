@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'TestPublicccc'
   s.version          = '0.1.0'
   s.summary          = 'A short description of TestPublicccc.'
+  s.resource = 'TestPublicccc/TestPublicccc.bundle'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,9 +33,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TestPublicccc/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TestPublicccc' => ['TestPublicccc/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'TestPublicccc' => ['TestPublicccc/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

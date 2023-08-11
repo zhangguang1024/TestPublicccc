@@ -7,23 +7,31 @@
 //
 
 #import "TTViewController.h"
-
+#import "TestViewController.h"
 @interface TTViewController ()
 
 @end
 
 @implementation TTViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setTitle:@"Test" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [btn sizeToFit];
+    [btn addTarget:self action:@selector(clickBtn) forControlEvents:UIControlEventTouchUpInside];
+    [btn setBackgroundColor:[UIColor cyanColor]];
+    [self.view addSubview:btn];
+    
+    btn.center = CGPointMake(200, 380);
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)clickBtn{
+    TestViewController *vc = [[TestViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
+
 
 @end
