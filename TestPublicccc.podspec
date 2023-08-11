@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestPublicccc'
-  s.version          = '1.0.6'
+  s.version          = '1.0.8'
   s.summary          = 'A short description of TestPublicccc.'
 #  s.resource = 'TestPublicccc/TestPublicccc.bundle'
   s.resource         = 'Assets.xcassets'
