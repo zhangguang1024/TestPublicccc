@@ -1,0 +1,28 @@
+{
+  "name": "TestPublicccc",
+  "version": "0.1.0",
+  "summary": "A short description of TestPublicccc.",
+  "resources": "TestPublicccc/TestPublicccc.bundle",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangguang/TestPublicccc",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangguang": "zhangguang@drojian.dev"
+  },
+  "source": {
+    "git": "https://github.com/zhangguang/TestPublicccc.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TestPublicccc/Classes/**/*",
+  "resource_bundles": {
+    "TestPublicccc": [
+      "TestPublicccc/Assets/*"
+    ]
+  }
+}

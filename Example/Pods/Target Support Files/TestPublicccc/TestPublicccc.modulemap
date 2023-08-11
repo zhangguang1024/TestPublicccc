@@ -1,0 +1,6 @@
+framework module TestPublicccc {
+  umbrella header "TestPublicccc-umbrella.h"
+
+  export *
+  module * { export * }
+}
