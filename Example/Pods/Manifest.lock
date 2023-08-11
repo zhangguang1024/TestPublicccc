@@ -1,5 +1,5 @@
 PODS:
-  - TestPublicccc (0.1.0)
+  - TestPublicccc (1.0.2)
 
 DEPENDENCIES:
   - TestPublicccc (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TestPublicccc: e3b5d9a4a84eeae80f3916eeeb2aa454c447c738
+  TestPublicccc: fbdc5fd8fb96d2c3d34f596d3831d286c358255c
 
 PODFILE CHECKSUM: 82b2be8cecc6224d8e4b8f159053108cda16e315
 
