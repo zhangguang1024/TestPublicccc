@@ -219,7 +219,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				4677742990487BCB25B83C9D /* [CP] Embed Pods Frameworks */,
+				914C31E7B6B7BAC1AE89F911 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -334,22 +334,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4677742990487BCB25B83C9D /* [CP] Embed Pods Frameworks */ = {
+		914C31E7B6B7BAC1AE89F911 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestPublicccc_Example/Pods-TestPublicccc_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TestPublicccc/TestPublicccc.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-TestPublicccc_Example/Pods-TestPublicccc_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TestPublicccc/TestPublicccc.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TestPublicccc.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TestPublicccc.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestPublicccc_Example/Pods-TestPublicccc_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestPublicccc_Example/Pods-TestPublicccc_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D93452197313AB195F9A758D /* [CP] Check Pods Manifest.lock */ = {
