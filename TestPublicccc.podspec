@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestPublicccc'
-  s.version          = '1.0.9'
+  s.version          = '1.1.0'
   s.summary          = 'A short description of TestPublicccc.'
 #  s.resource = 'TestPublicccc/TestPublicccc.bundle'
 #  s.resource         = 'Assets.xcassets'
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
 #    'TestPublicccc' => ['TestPublicccc/Assets/*']
 #  }
   s.resource_bundles = {
-       'B' => ['TestPublicccc/Assets/*',
+       'TestPublicccc' => ['TestPublicccc/Assets/*',
                'TestPublicccc/Classes/**/*']
      }
 
