@@ -8,10 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestPublicccc'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   s.summary          = 'A short description of TestPublicccc.'
 #  s.resource = 'TestPublicccc/TestPublicccc.bundle'
-  s.resource         = 'Assets.xcassets'
+#  s.resource         = 'Assets.xcassets'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,11 +30,15 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'TestPublicccc/Classes/**/*'
-  
+#  s.source_files = 'TestPublicccc/Classes/**/*'
+#
+#  s.resource_bundles = {
+#    'TestPublicccc' => ['TestPublicccc/Assets/*']
+#  }
   s.resource_bundles = {
-    'TestPublicccc' => ['TestPublicccc/Assets/*']
-  }
+       'B' => ['TestPublicccc/Assets/*',
+               'TestPublicccc/Classes/**/*']
+     }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
