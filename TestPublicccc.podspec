@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestPublicccc'
-  s.version          = '1.1.2'
+  s.version          = '1.1.3'
   s.summary          = 'A short description of TestPublicccc.'
 #  s.resource = 'TestPublicccc/TestPublicccc.bundle'
 #  s.resource         = 'Assets.xcassets'
@@ -30,14 +30,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
 
-#  s.source_files = 'TestPublicccc/Classes/**/*'
+  s.source_files = 'TestPublicccc/Classes/**/*'
 #
 #  s.resource_bundles = {
 #    'TestPublicccc' => ['TestPublicccc/Assets/*']
 #  }
   s.resource_bundles = {
-       'TestPublicccc' => ['TestPublicccc/Assets/*',
-               'TestPublicccc/Classes/**/*']
+       'TestPublicccc' => ['TestPublicccc/Assets/*']
      }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
