@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestPublicccc'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'A short description of TestPublicccc.'
   s.resource = 'TestPublicccc/TestPublicccc.bundle'
 
@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'Test_Public'
 
-  s.homepage         = 'https://github.com/zhangguang/TestPublicccc'
+  s.homepage         = 'https://github.com/zhangguang1024/TestPublicccc'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangguang' => 'zhangguang@drojian.dev' }
-  s.source           = { :git => 'https://github.com/zhangguang/TestPublicccc.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zhangguang1024/TestPublicccc.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'

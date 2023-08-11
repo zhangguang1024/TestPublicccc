@@ -1,6 +1,6 @@
 {
   "name": "TestPublicccc",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "summary": "A short description of TestPublicccc.",
   "resources": "TestPublicccc/TestPublicccc.bundle",
   "description": "Test_Public",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/zhangguang/TestPublicccc.git",
-    "tag": "1.0.2"
+    "tag": "1.0.4"
   },
   "platforms": {
     "ios": "12.0"
