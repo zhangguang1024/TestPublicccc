@@ -1,0 +1,35 @@
+//
+//  XYCellItem+Common.m
+//  XYBasicClass
+//
+//  Created by 张光 on 2022/7/21.
+//
+
+#import "XYCellItem+Common.h"
+
+@implementation XYCellItem (Common)
+
+IMPLEMENT_NODE_STR_FUNC(title);
+IMPLEMENT_NODE_STR_FUNC(subTitle);
+IMPLEMENT_NODE_STR_FUNC(key);
+IMPLEMENT_NODE_STR_FUNC(value);
+IMPLEMENT_NODE_STR_FUNC(identifier);
+IMPLEMENT_NODE_STR_FUNC(tag);
+IMPLEMENT_NODE_STR_FUNC(customString);
+IMPLEMENT_NODE_STR_FUNC(customSubString);
+
+IMPLEMENT_NODE_INTEGER_FUNC(index);
+IMPLEMENT_NODE_INTEGER_FUNC(customInteger);
+
+IMPLEMENT_NODE_BOOL_FUNC(status);
+IMPLEMENT_NODE_BOOL_FUNC(isOn);
+IMPLEMENT_NODE_BOOL_FUNC(customBool);
+
+IMPLEMENT_NODE_STR_FUNC(imageUrl);
+IMPLEMENT_NODE_STR_FUNC(imageString);
+IMPLEMENT_NODE_STR_FUNC(url);
+
+// array
+IMPLEMENT_NODE_ARRAY_FUNC(tagsItems);
+
+@end
