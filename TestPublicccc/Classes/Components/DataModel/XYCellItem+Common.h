@@ -5,7 +5,7 @@
 //  Created by 张光 on 2022/7/21.
 //
 
-#import "XYCellItem.h"
+#import <XYBasicClass/XYBasicClass.h>
 #import "XYCellItem+ADD.h"
 NS_ASSUME_NONNULL_BEGIN
 

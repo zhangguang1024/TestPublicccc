@@ -7,18 +7,22 @@
 
 #import "XYCellItem.h"
 
-@interface XYCellItem(){
-    NSMutableDictionary *dictData;
-}
+@interface XYCellItem()
+
+@property(nonatomic, strong)NSMutableDictionary *dictData;
 
 @end
 
 @implementation XYCellItem
 
++(XYCellItem *)cellItem{
+    return [[XYCellItem alloc] init];
+}
+
 -(instancetype)init{
     self = [super init];
     if (self) {
-        dictData = [NSMutableDictionary dictionary];
+        _dictData = [NSMutableDictionary dictionary];
     }
     return self;
 }
@@ -28,6 +32,44 @@
     item.cellClass = self.cellClass;
     item.identifier = self.identifier;
     return item;
+}
+
+/** 追加一个 DataItemDetail 对象的值 */
+- (void)append:(XYCellItem *)item{
+    if (nil == item) {
+        return;
+    }
+    
+    if (![item isKindOfClass:[XYCellItem class]]) {
+        return;
+    }
+
+    NSArray *keys = [NSArray arrayWithArray:[item.dictData allKeys]];
+    for (NSString *key in keys) {
+        if (nil == item.dictData[key]) {
+            continue;
+        }
+        self.dictData[key] = item.dictData[key];
+    }
+}
+
+/** 追加一个 NSDictionary 对象的值 */
+- (void)appendDict:(NSDictionary *)dict{
+    if (nil == dict) {
+        return;
+    }
+
+    if (![dict isKindOfClass:[NSDictionary class]]) {
+        return;
+    }
+
+    NSArray *keys = [NSArray arrayWithArray:[dict allKeys]];
+    for (NSString *key in keys) {
+        if (nil == dict[key]) {
+            continue;
+        }
+        self.dictData[key] = dict[key];
+    }
 }
 
 /* 获取节点int值 */
@@ -87,11 +129,11 @@
 
 /* 获取字符串值 */
 - (NSString *)getString:(NSString *)key {
-    if (nil == dictData || nil == key) {
+    if (nil == _dictData || nil == key) {
         return @"";
     }
 
-    NSString *value = dictData[key];
+    NSString *value = _dictData[key];
 
     if(nil == value){
         return @"";
@@ -104,11 +146,11 @@
 
 /* 获取数组值 */
 - (NSArray *)getArray:(NSString *)key {
-    if (nil == dictData || nil == key) {
+    if (nil == _dictData || nil == key) {
         return @[];
     }
     
-    NSArray *value = dictData[key];
+    NSArray *value = _dictData[key];
     
     if(nil == value){
         return @[];
@@ -121,11 +163,11 @@
 
 /* 获取int值 */
 - (int)getInt:(NSString *)key {
-    if (nil == dictData || nil == key) {
+    if (nil == _dictData || nil == key) {
         return 0;
     }
 
-    NSString *value = dictData[key];
+    NSString *value = _dictData[key];
     if(nil == value){
         return 0;
     }
@@ -139,11 +181,11 @@
 
 /** 获取float值 */
 - (float)getFloat:(NSString *)key{
-    if (nil == dictData || nil == key) {
+    if (nil == _dictData || nil == key) {
         return 0;
     }
 
-    NSString *value = dictData[key];
+    NSString *value = _dictData[key];
     if(nil == value){
         return 0;
     }
@@ -157,11 +199,11 @@
 
 /** 获取NSInteger值 */
 - (NSInteger)getInteger:(NSString *)key{
-    if (nil == dictData || nil == key) {
+    if (nil == _dictData || nil == key) {
         return 0;
     }
 
-    NSString *value = dictData[key];
+    NSString *value = _dictData[key];
     if(nil == value){
         return 0;
     }
@@ -175,11 +217,11 @@
 
 /* 获取long long值 */
 - (long long)getLongLong:(NSString *)key {
-    if (nil == dictData || nil == key) {
+    if (nil == _dictData || nil == key) {
         return 0;
     }
     
-    NSString *value = dictData[key];
+    NSString *value = _dictData[key];
     if(nil == value){
         return 0;
     }
@@ -193,11 +235,11 @@
 
 /* 获取布尔值 */
 - (BOOL)getBool:(NSString *)key {
-    if (nil == dictData || nil == key) {
+    if (nil == _dictData || nil == key) {
         return NO;
     }
 
-    NSString *value = dictData[key];
+    NSString *value = _dictData[key];
     
     if(nil == value){
         return NO;
@@ -229,7 +271,7 @@
 
 /* 设定字符串值 */
 - (BOOL)setString:(NSString *)value forKey:(NSString *)key {
-    if (nil == dictData || nil == key) {
+    if (nil == _dictData || nil == key) {
         return NO;
     }
 
@@ -237,14 +279,14 @@
         value = @"";
     }
 
-    dictData[key] = value;
+    _dictData[key] = value;
 
     return YES;
 }
 
 /* 设定数组 */
 - (BOOL)setArray:(NSArray *)value forKey:(NSString *)key {
-    if (nil == dictData || nil == key) {
+    if (nil == _dictData || nil == key) {
         return NO;
     }
     
@@ -252,58 +294,58 @@
         value = @[];
     }
     
-    dictData[key] = value;
+    _dictData[key] = value;
     
     return YES;
 }
 
 /* 设定 long long 值 */
 - (BOOL)setLongLong:(long long)value forKey:(NSString *)key {
-    if (nil == dictData || nil == key) {
+    if (nil == _dictData || nil == key) {
         return NO;
     }
 
-    dictData[key] = [NSString stringWithFormat:@"%lld", value];
+    _dictData[key] = [NSString stringWithFormat:@"%lld", value];
 
     return YES;
 }
 
 /* 设定int值 */
 - (BOOL)setInt:(int)value forKey:(NSString *)key {
-    if (nil == dictData || nil == key) {
+    if (nil == _dictData || nil == key) {
         return NO;
     }
 
-    dictData[key] = [NSString stringWithFormat:@"%d", value];
+    _dictData[key] = [NSString stringWithFormat:@"%d", value];
 
     return YES;
 }
 
 /** 设定float值 */
 - (BOOL)setFloat:(float)value forKey:(NSString *)key{
-    if (nil == dictData || nil == key) {
+    if (nil == _dictData || nil == key) {
         return NO;
     }
-    dictData[key] = [NSString stringWithFormat:@"%f", value];
+    _dictData[key] = [NSString stringWithFormat:@"%f", value];
     return YES;
 }
 
 /** 设定Integer值 */
 - (BOOL)setInteger:(NSInteger)value forKey:(NSString *)key{
-    if (nil == dictData || nil == key) {
+    if (nil == _dictData || nil == key) {
         return NO;
     }
-    dictData[key] = [NSString stringWithFormat:@"%ld", value];
+    _dictData[key] = [NSString stringWithFormat:@"%ld", value];
     return YES;
 }
 
 /* 设定布尔值 */
 - (BOOL)setBool:(BOOL)value forKey:(NSString *)key {
-    if (nil == dictData || nil == key) {
+    if (nil == _dictData || nil == key) {
         return NO;
     }
 
-    dictData[key] = [NSString stringWithFormat:@"%d", value ? 1 : 0];
+    _dictData[key] = [NSString stringWithFormat:@"%d", value ? 1 : 0];
 
     return YES;
 }
@@ -364,11 +406,11 @@
 
 /** 是否存在键值对 */
 - (BOOL)hasKey:(NSString *)key {
-    if (nil == dictData || nil == key) {
+    if (nil == _dictData || nil == key) {
         return NO;
     }
 
-    if (dictData[key]) {
+    if (_dictData[key]) {
         return YES;
     }
 
@@ -377,11 +419,11 @@
 
 /* 是否存在匹配的键值对 */
 - (BOOL)hasKey:(NSString *)key withValue:(NSString *)value {
-    if (nil == dictData || nil == key || nil == value) {
+    if (nil == _dictData || nil == key || nil == value) {
         return NO;
     }
 
-    NSString *tmpValue = dictData[key];
+    NSString *tmpValue = _dictData[key];
 
     if (nil == tmpValue) {
         return NO;
@@ -414,7 +456,7 @@
 
 /* 清除所有元素 */
 - (void)clear {
-    [dictData removeAllObjects];
+    [_dictData removeAllObjects];
 }
 
 

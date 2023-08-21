@@ -7,43 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04C4194087DFCDBB38C64E3754E6410F /* TestPublicccc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F309BD29E6B2FA77AC98B858BDC1B2 /* TestPublicccc-dummy.m */; };
-		0ECFD3A4E60A4F067494EDF6B43E0819 /* XYCellItem+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 91345AA430C5191C71B819DA348EE640 /* XYCellItem+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12015475F9DFC96589A415A0C1D423D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E602E06EC42C1056CE50CDC9076C6E0C /* Assets.xcassets */; };
-		27A54A293E86E597FF70107DAC02D1F0 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2318ED673E919FEF64D8E34641D9A9 /* TestViewController.m */; };
-		2FCCBFEEB566341BCDB34037A7819A85 /* XYCellItem+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = FA19F343DC7EA9DB3968E9D7A07D4112 /* XYCellItem+Common.m */; };
+		0083E672007C227F40AD8F71F3254B68 /* XYCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F98EAC0DF64D3735AD0E46E04932CB8 /* XYCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07E2973EE88A6CB4479732DB64B891B6 /* XYActionSheetTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C783263EC63D9C25259C97668A34F64 /* XYActionSheetTransition.m */; };
+		1041656707F9B99B6DBFFD40AE58EB0F /* XYCustomButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = DA136B88C490CE54681ABFBC9E7772E9 /* XYCustomButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		105A0797B5C9998F3E2693A16B40CCCF /* XYAppControllers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBFDCFA65B0CDF26305A2F671CB2D65 /* XYAppControllers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		128108B1436291FA28069B0007D90A21 /* XYEmptyTableHeaderFooterCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 241EFAD701CBAE8C5F15AE5DB28B85D0 /* XYEmptyTableHeaderFooterCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C45F4C2E03DA7C176E99F812677F3E0 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3891F69BBB568A0D907478C9C43ACBE8 /* TestViewController.m */; };
+		1E313689DF5A9435CA96342735383884 /* XYTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62DFEE1C7EECBA05EAB731CDB72A0BB /* XYTableView.m */; };
+		22D0E11AB35D120DC0657CCE53AFEC35 /* XYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E83379F3ED6F410B9CDAEB9B41F020 /* XYNavigationController.m */; };
+		28A76506F645BE00D0CFD19873DAF789 /* XYWaterFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 05B295CF3EE86FD110EB2294675489C0 /* XYWaterFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		290764B088B43392F58385B1C12A1DEC /* XYCustomNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0140621BEC94E68FF045A3B19AB4111 /* XYCustomNavigationBarView.m */; };
+		29A7EDA6E72AC830C3BA136B70571156 /* XYCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC7775322361D4091F43533D0FBFA3 /* XYCollectionCell.m */; };
+		2D31D2E2FA51F11E33DFCE53CDFB76CD /* XYCommonDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = F3ACB3A42A941AC0D86D668298EB9DB6 /* XYCommonDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3091FDEAAE89D429D738BE933CACE103 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		34C62920456AB9D7294ECA6918E986C0 /* XYCustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C956D637E74EAE2393C0234B3A59A8F3 /* XYCustomTabBarController.m */; };
+		3598C6A254C3D3FFE02FB8E235725B3A /* XYTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BE9CB7A70B847F4E2D44FCAA151BBF /* XYTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AA296ABD4E44A9CE0EF1437FA258C0C /* XYNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8F1801C87933A2EDFFB99095900F5C /* XYNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CC7F29B43C208AB5717FAA42C7A31A4 /* XYWFCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B08C35AF54F3B609560B32579AB10F /* XYWFCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		479A36C6BA53ED0B6278EDAD2AB9A075 /* XYActionSheetTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 40FFA91737284DE3CE6F1DF25E5EFDB1 /* XYActionSheetTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48FB1138DE8E74C4E501BEF473B5D75F /* XYCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0043F548043F3008E759CF20868D4465 /* XYCollectionView.m */; };
+		4EE64E96E855082D6DB43DB6336F5173 /* TestPublicccc-TestPublicccc in Resources */ = {isa = PBXBuildFile; fileRef = 7CB4761B4C4DDBF4710088C97F93DA01 /* TestPublicccc-TestPublicccc */; };
+		4FB919481B3DB01499F483D7FF778CBD /* TestPublicccc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2150A7C630D2FC81685272696D4743 /* TestPublicccc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53DF15A451652579DE6DDC311A1AFD2B /* XYCustomTabbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DEBB28FBF0259A2FFD78EBFB07012C7 /* XYCustomTabbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		551D2386DB17506B2C77D707756AFA53 /* XYTableHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D676426415FBB2E85F73A21609E9D9 /* XYTableHeaderFooterView.m */; };
+		57CE92B21935AD069C896009A78DAB91 /* XYCellItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B05A8737DC0BF71A38DDE522D11F3F0 /* XYCellItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59439F169BF4C4278264DCEC857BF49B /* XYWFCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BCE3C9AD5CE5E67564AFC364C3442D /* XYWFCollectionView.m */; };
+		5C722871BEA847FBD96DD290669EEC30 /* XYActionSheetNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F2721D93ADA62BA21B39EA3991BDBD /* XYActionSheetNavigationController.m */; };
+		61FA918AD88EDA5EA7D0A3C08D624F30 /* XYCellItem+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 17897B1C1338B21AFC59F5B56511122B /* XYCellItem+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		684DBCEE36D085E1388422D9A5502E8B /* XYBasicViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5286B41F5D4874425E40686BB63CED81 /* XYBasicViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AE50051CCAB37278576C960183DDE82 /* Pods-TestPublicccc_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0316271499DD301510DC99661A98C051 /* Pods-TestPublicccc_Tests-dummy.m */; };
 		6FE703577A5AE1DADDC2A0B9DC70764D /* Pods-TestPublicccc_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D015BCE008ED893C05AB2645FDBBFAC /* Pods-TestPublicccc_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74E28573693ACD8ACDF7F48D5326D04E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7A8146737E1AF2616CC827BF5EA3669D /* XYCollectionHeaderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 026E65EC262EAD5E36EA14C8328FDDF3 /* XYCollectionHeaderCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B0431B213DC6CE01207F2A6F5F26DD7 /* UIViewController+XYBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3661BB46CF25A2907057017AC58593 /* UIViewController+XYBasic.m */; };
+		7CE67C1A731A63A6C05E942AB4CA7ABA /* XYActionSheetNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = B74EF5580E4A5FD2C789816D8CCDC060 /* XYActionSheetNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D6DFF4DB2A62ADA109C4D5FB55A2D62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7E6434D582E069844555D462A921566E /* XYCommonDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77539B4179EA06EFEE4CB85211CCD7 /* XYCommonDefine.m */; };
+		7EC80DDC85C0AA6FC981949A91EC3AAA /* XYTableHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA1D7D325FFCBF1443890E75C5DB1C6 /* XYTableHeaderCell.m */; };
+		8340DF923CDA460DA3F4100847EB83B4 /* XYCustomNavigationBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = C20EAFFD98182AF308A88774F3144A49 /* XYCustomNavigationBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854893644FE53E027B31882A22038EA4 /* TestPublicccc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDC768A8D877991487C08FB39E0523B /* TestPublicccc-dummy.m */; };
+		87167AF0CD6E851C1398CE32C740FDA6 /* XYCustomButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1988E20B0F1277303F4A58EF8684A6E6 /* XYCustomButtonView.m */; };
+		8720C3A8938022B1213AC3B607EAB2DF /* XYEmptyCollectionHeaderFooterCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4975498CC626D1EED554BCF673D1EA4B /* XYEmptyCollectionHeaderFooterCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91E85A663DE060CFBEBCC4E0954678F6 /* XYCollectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE1ED2AC1ECF70644850F7EEF277D7D /* XYCollectionCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		927DBC5A75D4CE0DA8529EA8FE7A4AC5 /* UIViewController+XYBasic.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5BA38EC8598C3B41C6E2941DE9A0A1 /* UIViewController+XYBasic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		936AA39464AE2AA620D372DACB6A209F /* XYEmptyTableHeaderFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708D8C8B5C024176FEDCC866ECF836F /* XYEmptyTableHeaderFooterCell.m */; };
+		94F47F34D283520E90279C40D94A6EB0 /* XYWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F251E2AEF22FEBCFCC8E0CB09C2CC3D8 /* XYWaterFlowLayout.m */; };
 		97C6F1C75C2F46F346EF5E8F8B7B5426 /* Pods-TestPublicccc_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34F4B5F1692AB8454B7564F1C56B2C9C /* Pods-TestPublicccc_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CD8DADEB29921E23B7F71CA80948431 /* XYCellItem+ADD.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C393A65917B49AC99BA75A0A7BBEEB /* XYCellItem+ADD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC3705C56FCE695BA9EC562525AD9E78 /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A8781F3EF270C451D67DDB16BE473AEF /* TestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF78112D62DD68E4250328F342994301 /* TestPublicccc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43620253F9768BED62EBB01560582BA1 /* TestPublicccc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D27721FC8B558EBF2C958AAEC90A77 /* XYTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D7870969BDBB9E9EE23F21575FAB523C /* XYTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB9B83A4BF323D79FE5AE8CA9342504 /* XYCollectionHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CFF694D010632E5695F237AAA88349 /* XYCollectionHeaderCell.m */; };
+		9E71B370CC7A64578CF6151CED1F755D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B31F2530EB0A7D3B5909DCFF2780FAC /* Assets.xcassets */; };
+		A4446DB50AF1E6A57E96F54FE4AF819A /* XYCustomTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = CD005C6336BA72EEB6B384A935C4E871 /* XYCustomTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EFB6185C4D8F7F065F11D9A6839801 /* XYCollectionReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D124E70E3037F85BEE03CF17E364922 /* XYCollectionReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEE53126464B8C9692679B0525CD0B36 /* XYBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F3CF1680B913E21007AC3F045A03C0 /* XYBasicViewController.m */; };
+		B1F1A7FCB1DCD1A31DCF237928C4223B /* XYAlertActionSheetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FA381754D623EF3D5AD75EEF04560997 /* XYAlertActionSheetViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B48916909B7C3489F3078877BC1836D3 /* Pods-TestPublicccc_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC0E728A8F199A328DD532B93003F4A /* Pods-TestPublicccc_Example-dummy.m */; };
+		B67D2FB174FA83290A79D0E8166E20F7 /* XYBasicClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAAD044DB8E589C2AE440C4FC1F55D6 /* XYBasicClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBAE3FC8933AA1F4882BA2D614B9FB71 /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 713E9EDB39FCD91D18FA611E93982E85 /* TestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC2565EB6882158BDDC48E05096EB6FC /* XYDefineMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = E9FF0D5D1F0DC9F37CBC7AA5604C2919 /* XYDefineMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC6588CD3B99CD644A2CA52D85583C33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D80F24052394A07B39A23E3520D94644 /* Language in Resources */ = {isa = PBXBuildFile; fileRef = E5DD4D67867E40174EABD22DF11A4580 /* Language */; };
-		DAE1DC35A99DEA1D947483AE6B1ED549 /* XYCellItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 817103245E3B4DBBBF5BE4711B591542 /* XYCellItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBA0CAB236244FE32337C65C9040EC1A /* TestPublicccc-TestPublicccc in Resources */ = {isa = PBXBuildFile; fileRef = 7CB4761B4C4DDBF4710088C97F93DA01 /* TestPublicccc-TestPublicccc */; };
-		E5C0D82F671ED37119F16061CBBBFC48 /* XYCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 502A4967525C49D8E7586604552DEF51 /* XYCellItem.m */; };
+		BD0D2F39F3CB45125B77AFB11C5BD834 /* XYCellItem+ADD.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5725682BF69A5B881FDFA9431A94B2 /* XYCellItem+ADD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C028513C523FD6095C400A4523362654 /* XYCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C16374F532D72BA9089057D56D823CC /* XYCellItem.m */; };
+		C15E11D44125B74C2D6B6E26675220C5 /* XYCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F58E890D5EA51536AF30CABD21060C09 /* XYCollectionReusableView.m */; };
+		C5701BB81156A0EAED6C630376C145BB /* Language in Resources */ = {isa = PBXBuildFile; fileRef = 5EF30637E209339C0A3AC2646F32EA7A /* Language */; };
+		C589F82841172EC050F0A61DE84AFEE0 /* XYWFCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3517764A2C53D56BE6F14ADF26281DE /* XYWFCollectionCell.m */; };
+		C6B56038DA7D7F92CAF04D54D5D0E394 /* XYWFCollectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F44E5CA03D9EA225E0D9315B654FCF43 /* XYWFCollectionCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8EC157A5FF4C11EA344D9C3C83C0BEA /* XYTableHeaderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 080FEF91367A6099B964B25B332160E2 /* XYTableHeaderCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC50B7E4CA80A51FD1C689843C87EB52 /* XYAlertActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FD8EF5D0433A7FAC7DAF11FD83D780 /* XYAlertActionSheetViewController.m */; };
+		CF0CA5587969262C3E4B85FB60032D80 /* XYCellItem+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96251952ADD6E6F8CB40A02D8E6477 /* XYCellItem+Common.m */; };
+		DA3640647EE710435B6A8A4D407BE098 /* XYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BF1808DF4C972D4B28C7FDF6689859 /* XYTableViewCell.m */; };
+		DCCB14F6F0C3B62818F975D08D7594BC /* XYAppControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D8A37884DBAFE7AC65C85B762EF63A /* XYAppControllers.m */; };
+		E1F29C052661B47B3297E913129C4A93 /* XYCustomTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AB5310B2AD43A10ADEDEA7195E5B3B /* XYCustomTabbar.m */; };
+		F97C2C1843D077736EBA1D5D586B8A52 /* XYEmptyCollectionHeaderFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD1E8E4A032317F4A9CEFDD4AB3C40B /* XYEmptyCollectionHeaderFooterCell.m */; };
+		FF87960AED5CD800AB77AF77B48E5D9B /* XYTableHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE9B450F3D3F7F0AA38FEEBCB2D916C /* XYTableHeaderFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5FF3BC0740B3ED24D840154D396B6AA6 /* PBXContainerItemProxy */ = {
+		5DA50BA56541A77F30AA20ABB4F8CA50 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B9096B48113DAFF285BECEDC5630185A;
 			remoteInfo = "TestPublicccc-TestPublicccc";
 		};
-		EC5C673DD7ADF5A7D670C83A5D02D9C4 /* PBXContainerItemProxy */ = {
+		93F9CDCEE9620FCFE38D6DFE434ACDBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 170BE108B60E590867DB8BAA7BFDC602;
 			remoteInfo = TestPublicccc;
 		};
-		FCFC9BDD15B1D4725CF70E10DE63C193 /* PBXContainerItemProxy */ = {
+		C732B21E29FB9798ADA1DD90E49B43E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -53,67 +105,104 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0043F548043F3008E759CF20868D4465 /* XYCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYCollectionView.m; sourceTree = "<group>"; };
+		026E65EC262EAD5E36EA14C8328FDDF3 /* XYCollectionHeaderCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYCollectionHeaderCell.h; sourceTree = "<group>"; };
+		02AB5310B2AD43A10ADEDEA7195E5B3B /* XYCustomTabbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYCustomTabbar.m; sourceTree = "<group>"; };
 		0316271499DD301510DC99661A98C051 /* Pods-TestPublicccc_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestPublicccc_Tests-dummy.m"; sourceTree = "<group>"; };
+		05B295CF3EE86FD110EB2294675489C0 /* XYWaterFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYWaterFlowLayout.h; sourceTree = "<group>"; };
+		05D8A37884DBAFE7AC65C85B762EF63A /* XYAppControllers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYAppControllers.m; sourceTree = "<group>"; };
+		0708D8C8B5C024176FEDCC866ECF836F /* XYEmptyTableHeaderFooterCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYEmptyTableHeaderFooterCell.m; sourceTree = "<group>"; };
+		080FEF91367A6099B964B25B332160E2 /* XYTableHeaderCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYTableHeaderCell.h; sourceTree = "<group>"; };
 		09187FEAD621C3AFD6DE915586D1D2E3 /* Pods-TestPublicccc_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestPublicccc_Example"; path = Pods_TestPublicccc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBFDCFA65B0CDF26305A2F671CB2D65 /* XYAppControllers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYAppControllers.h; sourceTree = "<group>"; };
+		0F5725682BF69A5B881FDFA9431A94B2 /* XYCellItem+ADD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYCellItem+ADD.h"; sourceTree = "<group>"; };
+		0F98EAC0DF64D3735AD0E46E04932CB8 /* XYCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYCollectionView.h; sourceTree = "<group>"; };
+		10AA578935B9F9EBF4FFACC54E519E03 /* TestPublicccc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestPublicccc.debug.xcconfig; sourceTree = "<group>"; };
 		1354915FBFEBC5488E3C59D47ECCFA69 /* Pods-TestPublicccc_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPublicccc_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		17897B1C1338B21AFC59F5B56511122B /* XYCellItem+Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYCellItem+Common.h"; sourceTree = "<group>"; };
+		1988E20B0F1277303F4A58EF8684A6E6 /* XYCustomButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYCustomButtonView.m; sourceTree = "<group>"; };
 		1B812C0B957655ADB37425ABC1DC7FC8 /* Pods-TestPublicccc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPublicccc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C783263EC63D9C25259C97668A34F64 /* XYActionSheetTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYActionSheetTransition.m; sourceTree = "<group>"; };
 		1D015BCE008ED893C05AB2645FDBBFAC /* Pods-TestPublicccc_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestPublicccc_Tests-umbrella.h"; sourceTree = "<group>"; };
+		20F3CF1680B913E21007AC3F045A03C0 /* XYBasicViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYBasicViewController.m; sourceTree = "<group>"; };
+		20FD8EF5D0433A7FAC7DAF11FD83D780 /* XYAlertActionSheetViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYAlertActionSheetViewController.m; sourceTree = "<group>"; };
 		2209E484F56915BF982D23CD8BC12D85 /* Pods-TestPublicccc_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestPublicccc_Tests.modulemap"; sourceTree = "<group>"; };
+		241EFAD701CBAE8C5F15AE5DB28B85D0 /* XYEmptyTableHeaderFooterCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYEmptyTableHeaderFooterCell.h; sourceTree = "<group>"; };
 		244E8678E0BD0697F8D42E78ADA11837 /* Pods-TestPublicccc_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPublicccc_Tests-Info.plist"; sourceTree = "<group>"; };
-		2561C1478CD7426EC50455E20D6DE8E1 /* TestPublicccc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestPublicccc.modulemap; sourceTree = "<group>"; };
-		28C393A65917B49AC99BA75A0A7BBEEB /* XYCellItem+ADD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYCellItem+ADD.h"; sourceTree = "<group>"; };
-		291947FCEE29845F6551DF9C747DF41E /* TestPublicccc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestPublicccc.debug.xcconfig; sourceTree = "<group>"; };
+		25BF1808DF4C972D4B28C7FDF6689859 /* XYTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYTableViewCell.m; sourceTree = "<group>"; };
+		2B0B1F1674A093A74E9EE10A2CA90834 /* TestPublicccc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestPublicccc-Info.plist"; sourceTree = "<group>"; };
+		2C16374F532D72BA9089057D56D823CC /* XYCellItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYCellItem.m; sourceTree = "<group>"; };
 		34F4B5F1692AB8454B7564F1C56B2C9C /* Pods-TestPublicccc_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestPublicccc_Example-umbrella.h"; sourceTree = "<group>"; };
-		419329AAFD121F89484DEDB45E943810 /* TestPublicccc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestPublicccc.release.xcconfig; sourceTree = "<group>"; };
-		43620253F9768BED62EBB01560582BA1 /* TestPublicccc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestPublicccc-umbrella.h"; sourceTree = "<group>"; };
-		496C4022E7D9943923B2DFBA6030284D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		502A4967525C49D8E7586604552DEF51 /* XYCellItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYCellItem.m; sourceTree = "<group>"; };
+		3891F69BBB568A0D907478C9C43ACBE8 /* TestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = TestPublicccc/Classes/TestViewController.m; sourceTree = "<group>"; };
+		38BE9CB7A70B847F4E2D44FCAA151BBF /* XYTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYTableView.h; sourceTree = "<group>"; };
+		3B05A8737DC0BF71A38DDE522D11F3F0 /* XYCellItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYCellItem.h; sourceTree = "<group>"; };
+		3B96251952ADD6E6F8CB40A02D8E6477 /* XYCellItem+Common.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XYCellItem+Common.m"; sourceTree = "<group>"; };
+		3DA1D7D325FFCBF1443890E75C5DB1C6 /* XYTableHeaderCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYTableHeaderCell.m; sourceTree = "<group>"; };
+		40FFA91737284DE3CE6F1DF25E5EFDB1 /* XYActionSheetTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYActionSheetTransition.h; sourceTree = "<group>"; };
+		466F8EC75B08557DECD5277336BBA286 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4975498CC626D1EED554BCF673D1EA4B /* XYEmptyCollectionHeaderFooterCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYEmptyCollectionHeaderFooterCell.h; sourceTree = "<group>"; };
+		4A7412A1B8BA1E71C581F67BD5FD2A06 /* TestPublicccc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestPublicccc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5286B41F5D4874425E40686BB63CED81 /* XYBasicViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYBasicViewController.h; sourceTree = "<group>"; };
 		52FEAEC0D82B549A9252C0F3674950D2 /* Pods-TestPublicccc_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestPublicccc_Tests"; path = Pods_TestPublicccc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		67F309BD29E6B2FA77AC98B858BDC1B2 /* TestPublicccc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestPublicccc-dummy.m"; sourceTree = "<group>"; };
+		5B31F2530EB0A7D3B5909DCFF2780FAC /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TestPublicccc/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		5DEBB28FBF0259A2FFD78EBFB07012C7 /* XYCustomTabbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYCustomTabbar.h; sourceTree = "<group>"; };
+		5EF30637E209339C0A3AC2646F32EA7A /* Language */ = {isa = PBXFileReference; includeInIndex = 1; name = Language; path = TestPublicccc/Assets/Language; sourceTree = "<group>"; };
 		6A2F4EB3CF61C24DF777BE1040EF0175 /* Pods-TestPublicccc_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPublicccc_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6C5A6177468B8006F1348903C074D79A /* ResourceBundle-TestPublicccc-TestPublicccc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TestPublicccc-TestPublicccc-Info.plist"; sourceTree = "<group>"; };
+		706C4F750B00CFA23881A56E6D1D808E /* TestPublicccc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestPublicccc.modulemap; sourceTree = "<group>"; };
+		713E9EDB39FCD91D18FA611E93982E85 /* TestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = TestPublicccc/Classes/TestViewController.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BAAD044DB8E589C2AE440C4FC1F55D6 /* XYBasicClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYBasicClass.h; path = TestPublicccc/Classes/XYBasicClass.h; sourceTree = "<group>"; };
 		7CB4761B4C4DDBF4710088C97F93DA01 /* TestPublicccc-TestPublicccc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TestPublicccc-TestPublicccc"; path = TestPublicccc.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D124E70E3037F85BEE03CF17E364922 /* XYCollectionReusableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYCollectionReusableView.h; sourceTree = "<group>"; };
 		7F378F7FA1D596D7AA4BB6A6B2993B6C /* TestPublicccc */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestPublicccc; path = TestPublicccc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F7635717085B5D298678E7773540DFC /* Pods-TestPublicccc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPublicccc_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7FBC7775322361D4091F43533D0FBFA3 /* XYCollectionCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYCollectionCell.m; sourceTree = "<group>"; };
 		8068120C7787B70583A5A8F7FF10E548 /* Pods-TestPublicccc_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestPublicccc_Example-frameworks.sh"; sourceTree = "<group>"; };
-		817103245E3B4DBBBF5BE4711B591542 /* XYCellItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYCellItem.h; sourceTree = "<group>"; };
-		91345AA430C5191C71B819DA348EE640 /* XYCellItem+Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYCellItem+Common.h"; sourceTree = "<group>"; };
+		81BCE3C9AD5CE5E67564AFC364C3442D /* XYWFCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYWFCollectionView.m; sourceTree = "<group>"; };
+		86CFF694D010632E5695F237AAA88349 /* XYCollectionHeaderCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYCollectionHeaderCell.m; sourceTree = "<group>"; };
+		88E83379F3ED6F410B9CDAEB9B41F020 /* XYNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYNavigationController.m; sourceTree = "<group>"; };
+		8B8F1801C87933A2EDFFB99095900F5C /* XYNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYNavigationController.h; sourceTree = "<group>"; };
 		9566575AFCFD456D81BFDC225981FB67 /* Pods-TestPublicccc_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestPublicccc_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95F2721D93ADA62BA21B39EA3991BDBD /* XYActionSheetNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYActionSheetNavigationController.m; sourceTree = "<group>"; };
+		9A77539B4179EA06EFEE4CB85211CCD7 /* XYCommonDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYCommonDefine.m; sourceTree = "<group>"; };
 		9B70C30952EFDE6957472AE8DB43A4C1 /* Pods-TestPublicccc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPublicccc_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8781F3EF270C451D67DDB16BE473AEF /* TestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = TestPublicccc/Classes/TestViewController.h; sourceTree = "<group>"; };
+		A1C407EDFC61AAAC57596E8DE1A0A173 /* TestPublicccc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestPublicccc.release.xcconfig; sourceTree = "<group>"; };
+		A9D62CB7AD177D621B715268D64D6FC0 /* ResourceBundle-TestPublicccc-TestPublicccc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TestPublicccc-TestPublicccc-Info.plist"; sourceTree = "<group>"; };
 		A9E7A9830EE50CD1AFC684C31A6D861F /* Pods-TestPublicccc_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestPublicccc_Example.modulemap"; sourceTree = "<group>"; };
-		AC2318ED673E919FEF64D8E34641D9A9 /* TestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = TestPublicccc/Classes/TestViewController.m; sourceTree = "<group>"; };
+		ACE1ED2AC1ECF70644850F7EEF277D7D /* XYCollectionCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYCollectionCell.h; sourceTree = "<group>"; };
+		B3517764A2C53D56BE6F14ADF26281DE /* XYWFCollectionCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYWFCollectionCell.m; sourceTree = "<group>"; };
+		B74EF5580E4A5FD2C789816D8CCDC060 /* XYActionSheetNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYActionSheetNavigationController.h; sourceTree = "<group>"; };
 		B9CF4E65794BADFF0121D1465DBF7EE8 /* Pods-TestPublicccc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPublicccc_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BAB0F8FB6A50C36FA0818D17D597402B /* TestPublicccc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestPublicccc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C34C59AF66CA1976AC3AF7569CD9FE7C /* TestPublicccc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestPublicccc-Info.plist"; sourceTree = "<group>"; };
+		BDDC768A8D877991487C08FB39E0523B /* TestPublicccc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestPublicccc-dummy.m"; sourceTree = "<group>"; };
+		C20EAFFD98182AF308A88774F3144A49 /* XYCustomNavigationBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYCustomNavigationBarView.h; sourceTree = "<group>"; };
+		C956D637E74EAE2393C0234B3A59A8F3 /* XYCustomTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYCustomTabBarController.m; sourceTree = "<group>"; };
+		C9D5AC3E1613EEDAC3D04C7655186AAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CBD1E8E4A032317F4A9CEFDD4AB3C40B /* XYEmptyCollectionHeaderFooterCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYEmptyCollectionHeaderFooterCell.m; sourceTree = "<group>"; };
+		CD005C6336BA72EEB6B384A935C4E871 /* XYCustomTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYCustomTabBarController.h; sourceTree = "<group>"; };
+		D62DFEE1C7EECBA05EAB731CDB72A0BB /* XYTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYTableView.m; sourceTree = "<group>"; };
+		D7870969BDBB9E9EE23F21575FAB523C /* XYTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYTableViewCell.h; sourceTree = "<group>"; };
 		D867D63486957540E73E2C4921323F16 /* Pods-TestPublicccc_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestPublicccc_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E320A4B635DD29A28C6FB7AFBE7B94DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E5DD4D67867E40174EABD22DF11A4580 /* Language */ = {isa = PBXFileReference; includeInIndex = 1; name = Language; path = TestPublicccc/Assets/Language; sourceTree = "<group>"; };
-		E602E06EC42C1056CE50CDC9076C6E0C /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TestPublicccc/Assets/Assets.xcassets; sourceTree = "<group>"; };
-		ECC1F76C6644DFA241B17D278E16A42C /* TestPublicccc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestPublicccc-prefix.pch"; sourceTree = "<group>"; };
+		DA136B88C490CE54681ABFBC9E7772E9 /* XYCustomButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYCustomButtonView.h; sourceTree = "<group>"; };
+		DB5BA38EC8598C3B41C6E2941DE9A0A1 /* UIViewController+XYBasic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XYBasic.h"; sourceTree = "<group>"; };
+		DDE9B450F3D3F7F0AA38FEEBCB2D916C /* XYTableHeaderFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYTableHeaderFooterView.h; sourceTree = "<group>"; };
+		E3D676426415FBB2E85F73A21609E9D9 /* XYTableHeaderFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYTableHeaderFooterView.m; sourceTree = "<group>"; };
+		E6B08C35AF54F3B609560B32579AB10F /* XYWFCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYWFCollectionView.h; sourceTree = "<group>"; };
+		E9FF0D5D1F0DC9F37CBC7AA5604C2919 /* XYDefineMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYDefineMacro.h; sourceTree = "<group>"; };
+		EA3661BB46CF25A2907057017AC58593 /* UIViewController+XYBasic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XYBasic.m"; sourceTree = "<group>"; };
+		EFF467DE86A95BA43015E923E3B49C25 /* TestPublicccc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestPublicccc-prefix.pch"; sourceTree = "<group>"; };
+		F0140621BEC94E68FF045A3B19AB4111 /* XYCustomNavigationBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYCustomNavigationBarView.m; sourceTree = "<group>"; };
+		F251E2AEF22FEBCFCC8E0CB09C2CC3D8 /* XYWaterFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYWaterFlowLayout.m; sourceTree = "<group>"; };
+		F3ACB3A42A941AC0D86D668298EB9DB6 /* XYCommonDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYCommonDefine.h; sourceTree = "<group>"; };
+		F44E5CA03D9EA225E0D9315B654FCF43 /* XYWFCollectionCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYWFCollectionCell.h; sourceTree = "<group>"; };
+		F58E890D5EA51536AF30CABD21060C09 /* XYCollectionReusableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYCollectionReusableView.m; sourceTree = "<group>"; };
 		F9A03672BB589B095843CE4BE1BFA544 /* Pods-TestPublicccc_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPublicccc_Example-Info.plist"; sourceTree = "<group>"; };
-		FA19F343DC7EA9DB3968E9D7A07D4112 /* XYCellItem+Common.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XYCellItem+Common.m"; sourceTree = "<group>"; };
+		FA381754D623EF3D5AD75EEF04560997 /* XYAlertActionSheetViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYAlertActionSheetViewController.h; sourceTree = "<group>"; };
 		FCC0E728A8F199A328DD532B93003F4A /* Pods-TestPublicccc_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestPublicccc_Example-dummy.m"; sourceTree = "<group>"; };
+		FE2150A7C630D2FC81685272696D4743 /* TestPublicccc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestPublicccc-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		141B604FC4E757F2C1D2B6EA2E920537 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6473DEFB0BC44FC82C4B5251BB28C087 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74E28573693ACD8ACDF7F48D5326D04E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9634EB5C238E2904312AD3D100991EE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,25 +219,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B3A3CE9674A369C04B0CB59DBA8EC6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6DFF4DB2A62ADA109C4D5FB55A2D62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F302B1CAA8D01B08EAF50A574C93FA66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D761E0EFE572DA2DC3E2258C5B790EF /* Pod */ = {
+		045DEC1EFCE8FBF3B1980F108C8D4E68 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				496C4022E7D9943923B2DFBA6030284D /* LICENSE */,
-				E320A4B635DD29A28C6FB7AFBE7B94DC /* README.md */,
-				BAB0F8FB6A50C36FA0818D17D597402B /* TestPublicccc.podspec */,
+				C6F921DA005223B2244F22B034A1277E /* Appcontrollers */,
+				DCC626A2407E02AC2992317B16292D09 /* Button */,
+				4669E3029507C3A895EEACA40E0EE84C /* CollectionView */,
+				069BD3DEE440726FE7D17429652B8C3F /* DataModel */,
+				A09C2EDDB3727369FE6C4081B5C600C4 /* PresentView&AlertSheet */,
+				3A3CEE937136F437BC01F9453C12940C /* Tableview */,
 			);
-			name = Pod;
+			name = Components;
+			path = TestPublicccc/Classes/Components;
 			sourceTree = "<group>";
 		};
-		1FB9A1E21573330B9003F99648CE55C9 /* Development Pods */ = {
+		069BD3DEE440726FE7D17429652B8C3F /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
-				72C4FAA4FBBF989DC92FE00E071C69A0 /* TestPublicccc */,
+				3B05A8737DC0BF71A38DDE522D11F3F0 /* XYCellItem.h */,
+				2C16374F532D72BA9089057D56D823CC /* XYCellItem.m */,
+				0F5725682BF69A5B881FDFA9431A94B2 /* XYCellItem+ADD.h */,
+				17897B1C1338B21AFC59F5B56511122B /* XYCellItem+Common.h */,
+				3B96251952ADD6E6F8CB40A02D8E6477 /* XYCellItem+Common.m */,
 			);
-			name = "Development Pods";
+			name = DataModel;
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 		20429FB8A8F2D4958BDBFE8542F4E04C /* Pods-TestPublicccc_Example */ = {
@@ -168,6 +281,75 @@
 			path = "Target Support Files/Pods-TestPublicccc_Example";
 			sourceTree = "<group>";
 		};
+		347A5C4D2D50119E570BAD69420AB229 /* TestPublicccc */ = {
+			isa = PBXGroup;
+			children = (
+				5B31F2530EB0A7D3B5909DCFF2780FAC /* Assets.xcassets */,
+				5EF30637E209339C0A3AC2646F32EA7A /* Language */,
+				713E9EDB39FCD91D18FA611E93982E85 /* TestViewController.h */,
+				3891F69BBB568A0D907478C9C43ACBE8 /* TestViewController.m */,
+				7BAAD044DB8E589C2AE440C4FC1F55D6 /* XYBasicClass.h */,
+				3EE82F7DD6272E6D6B38ABB0704A8658 /* Basic */,
+				805447BB945A5F5648F2F88493FBDFB0 /* Category */,
+				E7C41121F2BAC68D0204D9BFDDE6553D /* Common */,
+				045DEC1EFCE8FBF3B1980F108C8D4E68 /* Components */,
+				F7EE1EC9B7C6207CC11FB92EFBDCF73D /* Pod */,
+				D6FADA56E565A77291F0F90DE5457450 /* Support Files */,
+			);
+			name = TestPublicccc;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3A3CEE937136F437BC01F9453C12940C /* Tableview */ = {
+			isa = PBXGroup;
+			children = (
+				DDE9B450F3D3F7F0AA38FEEBCB2D916C /* XYTableHeaderFooterView.h */,
+				E3D676426415FBB2E85F73A21609E9D9 /* XYTableHeaderFooterView.m */,
+				38BE9CB7A70B847F4E2D44FCAA151BBF /* XYTableView.h */,
+				D62DFEE1C7EECBA05EAB731CDB72A0BB /* XYTableView.m */,
+				D7870969BDBB9E9EE23F21575FAB523C /* XYTableViewCell.h */,
+				25BF1808DF4C972D4B28C7FDF6689859 /* XYTableViewCell.m */,
+			);
+			name = Tableview;
+			path = Tableview;
+			sourceTree = "<group>";
+		};
+		3EE82F7DD6272E6D6B38ABB0704A8658 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				5286B41F5D4874425E40686BB63CED81 /* XYBasicViewController.h */,
+				20F3CF1680B913E21007AC3F045A03C0 /* XYBasicViewController.m */,
+				C20EAFFD98182AF308A88774F3144A49 /* XYCustomNavigationBarView.h */,
+				F0140621BEC94E68FF045A3B19AB4111 /* XYCustomNavigationBarView.m */,
+				5DEBB28FBF0259A2FFD78EBFB07012C7 /* XYCustomTabbar.h */,
+				02AB5310B2AD43A10ADEDEA7195E5B3B /* XYCustomTabbar.m */,
+				CD005C6336BA72EEB6B384A935C4E871 /* XYCustomTabBarController.h */,
+				C956D637E74EAE2393C0234B3A59A8F3 /* XYCustomTabBarController.m */,
+				E9FF0D5D1F0DC9F37CBC7AA5604C2919 /* XYDefineMacro.h */,
+				8B8F1801C87933A2EDFFB99095900F5C /* XYNavigationController.h */,
+				88E83379F3ED6F410B9CDAEB9B41F020 /* XYNavigationController.m */,
+			);
+			name = Basic;
+			path = TestPublicccc/Classes/Basic;
+			sourceTree = "<group>";
+		};
+		4669E3029507C3A895EEACA40E0EE84C /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				7D124E70E3037F85BEE03CF17E364922 /* XYCollectionReusableView.h */,
+				F58E890D5EA51536AF30CABD21060C09 /* XYCollectionReusableView.m */,
+				0F98EAC0DF64D3735AD0E46E04932CB8 /* XYCollectionView.h */,
+				0043F548043F3008E759CF20868D4465 /* XYCollectionView.m */,
+				05B295CF3EE86FD110EB2294675489C0 /* XYWaterFlowLayout.h */,
+				F251E2AEF22FEBCFCC8E0CB09C2CC3D8 /* XYWaterFlowLayout.m */,
+				E6B08C35AF54F3B609560B32579AB10F /* XYWFCollectionView.h */,
+				81BCE3C9AD5CE5E67564AFC364C3442D /* XYWFCollectionView.m */,
+				E8508FF1E75D320F54619DDB25130E8C /* Cell */,
+			);
+			name = CollectionView;
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,19 +358,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		72C4FAA4FBBF989DC92FE00E071C69A0 /* TestPublicccc */ = {
+		78A266FE37DE8B40EAF5C173627CA089 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E602E06EC42C1056CE50CDC9076C6E0C /* Assets.xcassets */,
-				E5DD4D67867E40174EABD22DF11A4580 /* Language */,
-				A8781F3EF270C451D67DDB16BE473AEF /* TestViewController.h */,
-				AC2318ED673E919FEF64D8E34641D9A9 /* TestViewController.m */,
-				C3B7BAB396B5BE6030CE7AABDBC951AE /* DataModel */,
-				1D761E0EFE572DA2DC3E2258C5B790EF /* Pod */,
-				8654281DA2DEFAAB5E665930FBDC067D /* Support Files */,
+				347A5C4D2D50119E570BAD69420AB229 /* TestPublicccc */,
 			);
-			name = TestPublicccc;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7D0EF29D5631FB0DF3B1A566110C888D /* Products */ = {
@@ -202,20 +377,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8654281DA2DEFAAB5E665930FBDC067D /* Support Files */ = {
+		805447BB945A5F5648F2F88493FBDFB0 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				6C5A6177468B8006F1348903C074D79A /* ResourceBundle-TestPublicccc-TestPublicccc-Info.plist */,
-				2561C1478CD7426EC50455E20D6DE8E1 /* TestPublicccc.modulemap */,
-				67F309BD29E6B2FA77AC98B858BDC1B2 /* TestPublicccc-dummy.m */,
-				C34C59AF66CA1976AC3AF7569CD9FE7C /* TestPublicccc-Info.plist */,
-				ECC1F76C6644DFA241B17D278E16A42C /* TestPublicccc-prefix.pch */,
-				43620253F9768BED62EBB01560582BA1 /* TestPublicccc-umbrella.h */,
-				291947FCEE29845F6551DF9C747DF41E /* TestPublicccc.debug.xcconfig */,
-				419329AAFD121F89484DEDB45E943810 /* TestPublicccc.release.xcconfig */,
+				DB5BA38EC8598C3B41C6E2941DE9A0A1 /* UIViewController+XYBasic.h */,
+				EA3661BB46CF25A2907057017AC58593 /* UIViewController+XYBasic.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TestPublicccc";
+			name = Category;
+			path = TestPublicccc/Classes/Category;
+			sourceTree = "<group>";
+		};
+		A09C2EDDB3727369FE6C4081B5C600C4 /* PresentView&AlertSheet */ = {
+			isa = PBXGroup;
+			children = (
+				B74EF5580E4A5FD2C789816D8CCDC060 /* XYActionSheetNavigationController.h */,
+				95F2721D93ADA62BA21B39EA3991BDBD /* XYActionSheetNavigationController.m */,
+				40FFA91737284DE3CE6F1DF25E5EFDB1 /* XYActionSheetTransition.h */,
+				1C783263EC63D9C25259C97668A34F64 /* XYActionSheetTransition.m */,
+				FA381754D623EF3D5AD75EEF04560997 /* XYAlertActionSheetViewController.h */,
+				20FD8EF5D0433A7FAC7DAF11FD83D780 /* XYAlertActionSheetViewController.m */,
+			);
+			name = "PresentView&AlertSheet";
+			path = "PresentView&AlertSheet";
 			sourceTree = "<group>";
 		};
 		A13CA7227E522F3AC1401C9FB9D77696 /* Pods-TestPublicccc_Tests */ = {
@@ -234,17 +417,14 @@
 			path = "Target Support Files/Pods-TestPublicccc_Tests";
 			sourceTree = "<group>";
 		};
-		C3B7BAB396B5BE6030CE7AABDBC951AE /* DataModel */ = {
+		C6F921DA005223B2244F22B034A1277E /* Appcontrollers */ = {
 			isa = PBXGroup;
 			children = (
-				817103245E3B4DBBBF5BE4711B591542 /* XYCellItem.h */,
-				502A4967525C49D8E7586604552DEF51 /* XYCellItem.m */,
-				28C393A65917B49AC99BA75A0A7BBEEB /* XYCellItem+ADD.h */,
-				91345AA430C5191C71B819DA348EE640 /* XYCellItem+Common.h */,
-				FA19F343DC7EA9DB3968E9D7A07D4112 /* XYCellItem+Common.m */,
+				0DBFDCFA65B0CDF26305A2F671CB2D65 /* XYAppControllers.h */,
+				05D8A37884DBAFE7AC65C85B762EF63A /* XYAppControllers.m */,
 			);
-			name = DataModel;
-			path = TestPublicccc/Classes/DataModel;
+			name = Appcontrollers;
+			path = Appcontrollers;
 			sourceTree = "<group>";
 		};
 		C7642ACAE4ABF902EBB244816BF8AC16 /* Targets Support Files */ = {
@@ -260,7 +440,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1FB9A1E21573330B9003F99648CE55C9 /* Development Pods */,
+				78A266FE37DE8B40EAF5C173627CA089 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				7D0EF29D5631FB0DF3B1A566110C888D /* Products */,
 				C7642ACAE4ABF902EBB244816BF8AC16 /* Targets Support Files */,
@@ -275,26 +455,119 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D6FADA56E565A77291F0F90DE5457450 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9D62CB7AD177D621B715268D64D6FC0 /* ResourceBundle-TestPublicccc-TestPublicccc-Info.plist */,
+				706C4F750B00CFA23881A56E6D1D808E /* TestPublicccc.modulemap */,
+				BDDC768A8D877991487C08FB39E0523B /* TestPublicccc-dummy.m */,
+				2B0B1F1674A093A74E9EE10A2CA90834 /* TestPublicccc-Info.plist */,
+				EFF467DE86A95BA43015E923E3B49C25 /* TestPublicccc-prefix.pch */,
+				FE2150A7C630D2FC81685272696D4743 /* TestPublicccc-umbrella.h */,
+				10AA578935B9F9EBF4FFACC54E519E03 /* TestPublicccc.debug.xcconfig */,
+				A1C407EDFC61AAAC57596E8DE1A0A173 /* TestPublicccc.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TestPublicccc";
+			sourceTree = "<group>";
+		};
+		DCC626A2407E02AC2992317B16292D09 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				DA136B88C490CE54681ABFBC9E7772E9 /* XYCustomButtonView.h */,
+				1988E20B0F1277303F4A58EF8684A6E6 /* XYCustomButtonView.m */,
+			);
+			name = Button;
+			path = Button;
+			sourceTree = "<group>";
+		};
+		E7C41121F2BAC68D0204D9BFDDE6553D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F3ACB3A42A941AC0D86D668298EB9DB6 /* XYCommonDefine.h */,
+				9A77539B4179EA06EFEE4CB85211CCD7 /* XYCommonDefine.m */,
+			);
+			name = Common;
+			path = TestPublicccc/Classes/Common;
+			sourceTree = "<group>";
+		};
+		E8508FF1E75D320F54619DDB25130E8C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ACE1ED2AC1ECF70644850F7EEF277D7D /* XYCollectionCell.h */,
+				7FBC7775322361D4091F43533D0FBFA3 /* XYCollectionCell.m */,
+				026E65EC262EAD5E36EA14C8328FDDF3 /* XYCollectionHeaderCell.h */,
+				86CFF694D010632E5695F237AAA88349 /* XYCollectionHeaderCell.m */,
+				4975498CC626D1EED554BCF673D1EA4B /* XYEmptyCollectionHeaderFooterCell.h */,
+				CBD1E8E4A032317F4A9CEFDD4AB3C40B /* XYEmptyCollectionHeaderFooterCell.m */,
+				241EFAD701CBAE8C5F15AE5DB28B85D0 /* XYEmptyTableHeaderFooterCell.h */,
+				0708D8C8B5C024176FEDCC866ECF836F /* XYEmptyTableHeaderFooterCell.m */,
+				080FEF91367A6099B964B25B332160E2 /* XYTableHeaderCell.h */,
+				3DA1D7D325FFCBF1443890E75C5DB1C6 /* XYTableHeaderCell.m */,
+				F44E5CA03D9EA225E0D9315B654FCF43 /* XYWFCollectionCell.h */,
+				B3517764A2C53D56BE6F14ADF26281DE /* XYWFCollectionCell.m */,
+			);
+			name = Cell;
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F7EE1EC9B7C6207CC11FB92EFBDCF73D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C9D5AC3E1613EEDAC3D04C7655186AAE /* LICENSE */,
+				466F8EC75B08557DECD5277336BBA286 /* README.md */,
+				4A7412A1B8BA1E71C581F67BD5FD2A06 /* TestPublicccc.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		223FF510DE827A32058C97BC4069F878 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB919481B3DB01499F483D7FF778CBD /* TestPublicccc-umbrella.h in Headers */,
+				BBAE3FC8933AA1F4882BA2D614B9FB71 /* TestViewController.h in Headers */,
+				927DBC5A75D4CE0DA8529EA8FE7A4AC5 /* UIViewController+XYBasic.h in Headers */,
+				7CE67C1A731A63A6C05E942AB4CA7ABA /* XYActionSheetNavigationController.h in Headers */,
+				479A36C6BA53ED0B6278EDAD2AB9A075 /* XYActionSheetTransition.h in Headers */,
+				B1F1A7FCB1DCD1A31DCF237928C4223B /* XYAlertActionSheetViewController.h in Headers */,
+				105A0797B5C9998F3E2693A16B40CCCF /* XYAppControllers.h in Headers */,
+				B67D2FB174FA83290A79D0E8166E20F7 /* XYBasicClass.h in Headers */,
+				684DBCEE36D085E1388422D9A5502E8B /* XYBasicViewController.h in Headers */,
+				57CE92B21935AD069C896009A78DAB91 /* XYCellItem.h in Headers */,
+				BD0D2F39F3CB45125B77AFB11C5BD834 /* XYCellItem+ADD.h in Headers */,
+				61FA918AD88EDA5EA7D0A3C08D624F30 /* XYCellItem+Common.h in Headers */,
+				91E85A663DE060CFBEBCC4E0954678F6 /* XYCollectionCell.h in Headers */,
+				7A8146737E1AF2616CC827BF5EA3669D /* XYCollectionHeaderCell.h in Headers */,
+				A4EFB6185C4D8F7F065F11D9A6839801 /* XYCollectionReusableView.h in Headers */,
+				0083E672007C227F40AD8F71F3254B68 /* XYCollectionView.h in Headers */,
+				2D31D2E2FA51F11E33DFCE53CDFB76CD /* XYCommonDefine.h in Headers */,
+				1041656707F9B99B6DBFFD40AE58EB0F /* XYCustomButtonView.h in Headers */,
+				8340DF923CDA460DA3F4100847EB83B4 /* XYCustomNavigationBarView.h in Headers */,
+				53DF15A451652579DE6DDC311A1AFD2B /* XYCustomTabbar.h in Headers */,
+				A4446DB50AF1E6A57E96F54FE4AF819A /* XYCustomTabBarController.h in Headers */,
+				BC2565EB6882158BDDC48E05096EB6FC /* XYDefineMacro.h in Headers */,
+				8720C3A8938022B1213AC3B607EAB2DF /* XYEmptyCollectionHeaderFooterCell.h in Headers */,
+				128108B1436291FA28069B0007D90A21 /* XYEmptyTableHeaderFooterCell.h in Headers */,
+				3AA296ABD4E44A9CE0EF1437FA258C0C /* XYNavigationController.h in Headers */,
+				C8EC157A5FF4C11EA344D9C3C83C0BEA /* XYTableHeaderCell.h in Headers */,
+				FF87960AED5CD800AB77AF77B48E5D9B /* XYTableHeaderFooterView.h in Headers */,
+				3598C6A254C3D3FFE02FB8E235725B3A /* XYTableView.h in Headers */,
+				98D27721FC8B558EBF2C958AAEC90A77 /* XYTableViewCell.h in Headers */,
+				28A76506F645BE00D0CFD19873DAF789 /* XYWaterFlowLayout.h in Headers */,
+				C6B56038DA7D7F92CAF04D54D5D0E394 /* XYWFCollectionCell.h in Headers */,
+				3CC7F29B43C208AB5717FAA42C7A31A4 /* XYWFCollectionView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B07B8D3B40F10D0F519D6061DA4B5BF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6FE703577A5AE1DADDC2A0B9DC70764D /* Pods-TestPublicccc_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D7B62E5C689CFCC3252C43C1BEF01E7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF78112D62DD68E4250328F342994301 /* TestPublicccc-umbrella.h in Headers */,
-				AC3705C56FCE695BA9EC562525AD9E78 /* TestViewController.h in Headers */,
-				DAE1DC35A99DEA1D947483AE6B1ED549 /* XYCellItem.h in Headers */,
-				9CD8DADEB29921E23B7F71CA80948431 /* XYCellItem+ADD.h in Headers */,
-				0ECFD3A4E60A4F067494EDF6B43E0819 /* XYCellItem+Common.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,17 +584,17 @@
 /* Begin PBXNativeTarget section */
 		170BE108B60E590867DB8BAA7BFDC602 /* TestPublicccc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D36C27F734395DC168998BDC4B68CE38 /* Build configuration list for PBXNativeTarget "TestPublicccc" */;
+			buildConfigurationList = 0B9F6756FF780698E4042758F0B8B747 /* Build configuration list for PBXNativeTarget "TestPublicccc" */;
 			buildPhases = (
-				7D7B62E5C689CFCC3252C43C1BEF01E7 /* Headers */,
-				E8D45BA4189D5D3A2FADF0777EB718C8 /* Sources */,
-				6473DEFB0BC44FC82C4B5251BB28C087 /* Frameworks */,
-				3EA77706F0B3611538F853AAFC114DC4 /* Resources */,
+				223FF510DE827A32058C97BC4069F878 /* Headers */,
+				0A49EE75DBA34CB28A35EE0B2AD35AA3 /* Sources */,
+				B3A3CE9674A369C04B0CB59DBA8EC6AC /* Frameworks */,
+				25A5C83E3EFC3A696CDBB9A20102065E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				48E5E06C23D46DC0C5F42CE5E2438C79 /* PBXTargetDependency */,
+				F81872B71DFE40AD5031E18799AFAD55 /* PBXTargetDependency */,
 			);
 			name = TestPublicccc;
 			productName = TestPublicccc;
@@ -340,7 +613,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				75B734F0CFC42DF28682DA6097DF3E2D /* PBXTargetDependency */,
+				2F5532C2097353134D9050D30F285CD5 /* PBXTargetDependency */,
 			);
 			name = "Pods-TestPublicccc_Tests";
 			productName = Pods_TestPublicccc_Tests;
@@ -359,7 +632,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				07772E3250C76DB5B4BE160E92960180 /* PBXTargetDependency */,
+				252B57545FFA9410374AE6B22D94C18A /* PBXTargetDependency */,
 			);
 			name = "Pods-TestPublicccc_Example";
 			productName = Pods_TestPublicccc_Example;
@@ -368,11 +641,11 @@
 		};
 		B9096B48113DAFF285BECEDC5630185A /* TestPublicccc-TestPublicccc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4CB00A208F2A3686948AF000DD9A58B /* Build configuration list for PBXNativeTarget "TestPublicccc-TestPublicccc" */;
+			buildConfigurationList = 0A09E3D3866C4E977E8D6CDD0E6748FE /* Build configuration list for PBXNativeTarget "TestPublicccc-TestPublicccc" */;
 			buildPhases = (
-				EE4592BDADE2FBC9093882FE2F27D7BA /* Sources */,
-				141B604FC4E757F2C1D2B6EA2E920537 /* Frameworks */,
-				845F505B1C03E1F3BDC3D6FDF58E49F0 /* Resources */,
+				6A70A9A7FBEB584CBCF7B0355005C45E /* Sources */,
+				F302B1CAA8D01B08EAF50A574C93FA66 /* Frameworks */,
+				31C94D3CEF0258A68367F05EFABE3CA3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -421,6 +694,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		25A5C83E3EFC3A696CDBB9A20102065E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE64E96E855082D6DB43DB6336F5173 /* TestPublicccc-TestPublicccc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C94D3CEF0258A68367F05EFABE3CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E71B370CC7A64578CF6151CED1F755D /* Assets.xcassets in Resources */,
+				C5701BB81156A0EAED6C630376C145BB /* Language in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		34BA1AA1797B4D955F3B9ADA13747E24 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -428,26 +718,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3EA77706F0B3611538F853AAFC114DC4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBA0CAB236244FE32337C65C9040EC1A /* TestPublicccc-TestPublicccc in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		845F505B1C03E1F3BDC3D6FDF58E49F0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12015475F9DFC96589A415A0C1D423D3 /* Assets.xcassets in Resources */,
-				D80F24052394A07B39A23E3520D94644 /* Language in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A49EE75DBA34CB28A35EE0B2AD35AA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854893644FE53E027B31882A22038EA4 /* TestPublicccc-dummy.m in Sources */,
+				1C45F4C2E03DA7C176E99F812677F3E0 /* TestViewController.m in Sources */,
+				7B0431B213DC6CE01207F2A6F5F26DD7 /* UIViewController+XYBasic.m in Sources */,
+				5C722871BEA847FBD96DD290669EEC30 /* XYActionSheetNavigationController.m in Sources */,
+				07E2973EE88A6CB4479732DB64B891B6 /* XYActionSheetTransition.m in Sources */,
+				CC50B7E4CA80A51FD1C689843C87EB52 /* XYAlertActionSheetViewController.m in Sources */,
+				DCCB14F6F0C3B62818F975D08D7594BC /* XYAppControllers.m in Sources */,
+				AEE53126464B8C9692679B0525CD0B36 /* XYBasicViewController.m in Sources */,
+				C028513C523FD6095C400A4523362654 /* XYCellItem.m in Sources */,
+				CF0CA5587969262C3E4B85FB60032D80 /* XYCellItem+Common.m in Sources */,
+				29A7EDA6E72AC830C3BA136B70571156 /* XYCollectionCell.m in Sources */,
+				9CB9B83A4BF323D79FE5AE8CA9342504 /* XYCollectionHeaderCell.m in Sources */,
+				C15E11D44125B74C2D6B6E26675220C5 /* XYCollectionReusableView.m in Sources */,
+				48FB1138DE8E74C4E501BEF473B5D75F /* XYCollectionView.m in Sources */,
+				7E6434D582E069844555D462A921566E /* XYCommonDefine.m in Sources */,
+				87167AF0CD6E851C1398CE32C740FDA6 /* XYCustomButtonView.m in Sources */,
+				290764B088B43392F58385B1C12A1DEC /* XYCustomNavigationBarView.m in Sources */,
+				E1F29C052661B47B3297E913129C4A93 /* XYCustomTabbar.m in Sources */,
+				34C62920456AB9D7294ECA6918E986C0 /* XYCustomTabBarController.m in Sources */,
+				F97C2C1843D077736EBA1D5D586B8A52 /* XYEmptyCollectionHeaderFooterCell.m in Sources */,
+				936AA39464AE2AA620D372DACB6A209F /* XYEmptyTableHeaderFooterCell.m in Sources */,
+				22D0E11AB35D120DC0657CCE53AFEC35 /* XYNavigationController.m in Sources */,
+				7EC80DDC85C0AA6FC981949A91EC3AAA /* XYTableHeaderCell.m in Sources */,
+				551D2386DB17506B2C77D707756AFA53 /* XYTableHeaderFooterView.m in Sources */,
+				1E313689DF5A9435CA96342735383884 /* XYTableView.m in Sources */,
+				DA3640647EE710435B6A8A4D407BE098 /* XYTableViewCell.m in Sources */,
+				94F47F34D283520E90279C40D94A6EB0 /* XYWaterFlowLayout.m in Sources */,
+				C589F82841172EC050F0A61DE84AFEE0 /* XYWFCollectionCell.m in Sources */,
+				59439F169BF4C4278264DCEC857BF49B /* XYWFCollectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A70A9A7FBEB584CBCF7B0355005C45E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AF3B4ADDCEBC5A85E9BE573774451C3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -464,44 +780,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8D45BA4189D5D3A2FADF0777EB718C8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04C4194087DFCDBB38C64E3754E6410F /* TestPublicccc-dummy.m in Sources */,
-				27A54A293E86E597FF70107DAC02D1F0 /* TestViewController.m in Sources */,
-				E5C0D82F671ED37119F16061CBBBFC48 /* XYCellItem.m in Sources */,
-				2FCCBFEEB566341BCDB34037A7819A85 /* XYCellItem+Common.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE4592BDADE2FBC9093882FE2F27D7BA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		07772E3250C76DB5B4BE160E92960180 /* PBXTargetDependency */ = {
+		252B57545FFA9410374AE6B22D94C18A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TestPublicccc;
 			target = 170BE108B60E590867DB8BAA7BFDC602 /* TestPublicccc */;
-			targetProxy = EC5C673DD7ADF5A7D670C83A5D02D9C4 /* PBXContainerItemProxy */;
+			targetProxy = 93F9CDCEE9620FCFE38D6DFE434ACDBD /* PBXContainerItemProxy */;
 		};
-		48E5E06C23D46DC0C5F42CE5E2438C79 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "TestPublicccc-TestPublicccc";
-			target = B9096B48113DAFF285BECEDC5630185A /* TestPublicccc-TestPublicccc */;
-			targetProxy = 5FF3BC0740B3ED24D840154D396B6AA6 /* PBXContainerItemProxy */;
-		};
-		75B734F0CFC42DF28682DA6097DF3E2D /* PBXTargetDependency */ = {
+		2F5532C2097353134D9050D30F285CD5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TestPublicccc_Example";
 			target = A74379FD836848C0DA38A704BF44D9A6 /* Pods-TestPublicccc_Example */;
-			targetProxy = FCFC9BDD15B1D4725CF70E10DE63C193 /* PBXContainerItemProxy */;
+			targetProxy = C732B21E29FB9798ADA1DD90E49B43E3 /* PBXContainerItemProxy */;
+		};
+		F81872B71DFE40AD5031E18799AFAD55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TestPublicccc-TestPublicccc";
+			target = B9096B48113DAFF285BECEDC5630185A /* TestPublicccc-TestPublicccc */;
+			targetProxy = 5DA50BA56541A77F30AA20ABB4F8CA50 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -540,36 +838,22 @@
 			};
 			name = Release;
 		};
-		79BC2477BCD017C461B7772619EA31C9 /* Debug */ = {
+		57F40536248A0EA094CEA2D7DD46F370 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 291947FCEE29845F6551DF9C747DF41E /* TestPublicccc.debug.xcconfig */;
+			baseConfigurationReference = A1C407EDFC61AAAC57596E8DE1A0A173 /* TestPublicccc.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TestPublicccc/TestPublicccc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TestPublicccc/TestPublicccc-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TestPublicccc";
+				IBSC_MODULE = TestPublicccc;
+				INFOPLIST_FILE = "Target Support Files/TestPublicccc/ResourceBundle-TestPublicccc-TestPublicccc-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TestPublicccc/TestPublicccc.modulemap";
-				PRODUCT_MODULE_NAME = TestPublicccc;
 				PRODUCT_NAME = TestPublicccc;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		7AF69D968D1668774A7A866308817E5A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -666,6 +950,23 @@
 			};
 			name = Release;
 		};
+		A8A31355AF46708747234FE3F194DC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10AA578935B9F9EBF4FFACC54E519E03 /* TestPublicccc.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TestPublicccc";
+				IBSC_MODULE = TestPublicccc;
+				INFOPLIST_FILE = "Target Support Files/TestPublicccc/ResourceBundle-TestPublicccc-TestPublicccc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = TestPublicccc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		AFE4B803BA0A12476CD0BA0E027C689C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7F7635717085B5D298678E7773540DFC /* Pods-TestPublicccc_Tests.release.xcconfig */;
@@ -700,9 +1001,9 @@
 			};
 			name = Release;
 		};
-		B98465515CA9E19BDA67D711D9C8F369 /* Release */ = {
+		B1FADB726F830A859D868F9CA07C02EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 419329AAFD121F89484DEDB45E943810 /* TestPublicccc.release.xcconfig */;
+			baseConfigurationReference = 10AA578935B9F9EBF4FFACC54E519E03 /* TestPublicccc.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -726,11 +1027,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		C281B57C4D63085E5A7655C19CE67C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -765,37 +1065,35 @@
 			};
 			name = Debug;
 		};
-		C605AEF252F5A6AC3FD822391FEA33A4 /* Debug */ = {
+		C6436A96434DA7F35BC595E3EE664F99 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 291947FCEE29845F6551DF9C747DF41E /* TestPublicccc.debug.xcconfig */;
+			baseConfigurationReference = A1C407EDFC61AAAC57596E8DE1A0A173 /* TestPublicccc.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TestPublicccc";
-				IBSC_MODULE = TestPublicccc;
-				INFOPLIST_FILE = "Target Support Files/TestPublicccc/ResourceBundle-TestPublicccc-TestPublicccc-Info.plist";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TestPublicccc/TestPublicccc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TestPublicccc/TestPublicccc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TestPublicccc/TestPublicccc.modulemap";
+				PRODUCT_MODULE_NAME = TestPublicccc;
 				PRODUCT_NAME = TestPublicccc;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C679D546DFD72EBF37FE029A7C3C8D9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 419329AAFD121F89484DEDB45E943810 /* TestPublicccc.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TestPublicccc";
-				IBSC_MODULE = TestPublicccc;
-				INFOPLIST_FILE = "Target Support Files/TestPublicccc/ResourceBundle-TestPublicccc-TestPublicccc-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = TestPublicccc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -868,6 +1166,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0A09E3D3866C4E977E8D6CDD0E6748FE /* Build configuration list for PBXNativeTarget "TestPublicccc-TestPublicccc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8A31355AF46708747234FE3F194DC78 /* Debug */,
+				57F40536248A0EA094CEA2D7DD46F370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B9F6756FF780698E4042758F0B8B747 /* Build configuration list for PBXNativeTarget "TestPublicccc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FADB726F830A859D868F9CA07C02EB /* Debug */,
+				C6436A96434DA7F35BC595E3EE664F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		35C40D4C507CE031F71E81649AD04A39 /* Build configuration list for PBXNativeTarget "Pods-TestPublicccc_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -891,24 +1207,6 @@
 			buildConfigurations = (
 				C281B57C4D63085E5A7655C19CE67C8C /* Debug */,
 				0C370A32CBF17D69502FE7302C0508FD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D36C27F734395DC168998BDC4B68CE38 /* Build configuration list for PBXNativeTarget "TestPublicccc" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				79BC2477BCD017C461B7772619EA31C9 /* Debug */,
-				B98465515CA9E19BDA67D711D9C8F369 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E4CB00A208F2A3686948AF000DD9A58B /* Build configuration list for PBXNativeTarget "TestPublicccc-TestPublicccc" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C605AEF252F5A6AC3FD822391FEA33A4 /* Debug */,
-				C679D546DFD72EBF37FE029A7C3C8D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

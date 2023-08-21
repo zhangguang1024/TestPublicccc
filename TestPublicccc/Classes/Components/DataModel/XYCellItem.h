@@ -14,6 +14,14 @@
 @property(nonatomic, assign)Class cellClass;
 @property(nonatomic, strong)NSString *identifier;
 
++(XYCellItem *)cellItem;
+
+/** 追加一个 DataItemDetail 对象的值 */
+- (void)append:(XYCellItem *)item;
+
+/** 追加一个 NSDictionary 对象的值 */
+- (void)appendDict:(NSDictionary *)dict;
+
 /** 获取节点int值 */
 - (int)getItemInt;
 
