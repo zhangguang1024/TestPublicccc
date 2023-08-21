@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "XYCellItem+ADD.h"
+#import "XYCellItem+Common.h"
+#import "XYCellItem.h"
 #import "TestViewController.h"
 
 FOUNDATION_EXPORT double TestPubliccccVersionNumber;
