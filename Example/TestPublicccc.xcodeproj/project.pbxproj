@@ -528,6 +528,7 @@
 			baseConfigurationReference = E585C65CC437F69E4265FDB6 /* Pods-TestPublicccc_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EXCLUDED_ARCHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestPublicccc/TestPublicccc-Prefix.pch";
 				INFOPLIST_FILE = "TestPublicccc/TestPublicccc-Info.plist";
@@ -544,6 +545,7 @@
 			baseConfigurationReference = 37E4FB10EE079A55077265B4 /* Pods-TestPublicccc_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EXCLUDED_ARCHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestPublicccc/TestPublicccc-Prefix.pch";
 				INFOPLIST_FILE = "TestPublicccc/TestPublicccc-Info.plist";
